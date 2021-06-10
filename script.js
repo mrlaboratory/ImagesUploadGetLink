@@ -1,6 +1,8 @@
 $(function(){
     $(".upload").zzImgUr({
-        cliendID: "74f5c858f447bb9",
+        cliendID: "3fbefe7bfa42da9",
+        // old cliendID 74f5c858f447bb9
+      
         mode: "file",
         format: "o,",
         css: {
@@ -40,3 +42,38 @@ $(function(){
         }
     });
     });
+// $(".zzcopyLink").on("click",function(){
+    
+// }) 
+// function copyimglink(){  
+//     // var copyUrl = $(".imgur_Zzbv-input")[1].val();
+//     // navigator.clipboard.writeText(copyUrl);
+//     // notify("link Copied")
+//     alert($(".imgur_Zzbv-input")[0].val());
+// }
+
+// Post link copier & post link email function
+// var copyPostLinkbtn = $('.post .copypostlink');
+// var PostMail = $('.post .emailpost');
+// for (var i = 0; i < copyPostLinkbtn.length; i++)
+// {
+//   (function(index){
+//       copyPostLinkbtn[i].onclick = function(){
+// var copyUrl = document.querySelectorAll(".postLink")[index].getAttribute('href');
+// navigator.clipboard.writeText(copyUrl);
+// dragNotify('Post URL copied : '+copyUrl);
+//         }         
+//     })(i);
+//     (function(index){
+//       PostMail[i].onclick = function(){
+// var postlinkv = document.querySelectorAll(".postLink")[index].getAttribute('href');
+// var postTitlev = document.querySelectorAll(".postLink")[index].textContent;
+// var adminemail = "admin@mrlaboratory.com";
+//   var posttitleLink ="mailto:"+adminemail+"?Subject="+postTitlev+"&body=Hello Dear !! Read Our Latest Post : "+postTitlev+"        Link : "+postlinkv;
+//   // var  link = posttitleLink.toString();
+//   window.location.href = posttitleLink;
+//     }     
+//     })(i);
+
+// }
+
