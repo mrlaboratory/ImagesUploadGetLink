@@ -1,4 +1,3 @@
-document.writeln('<script src="https://code.jquery.com/jquery-1.10.1.js" type="text/javascript"></script>');
 $(function(){
     $(".upload").zzImgUr({
         cliendID: "3fbefe7bfa42da9",
