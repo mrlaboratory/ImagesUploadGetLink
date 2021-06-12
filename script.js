@@ -4,7 +4,7 @@ $(function(){
         // old cliendID 74f5c858f447bb9
       
         mode: "file",
-        format: "o,",
+        format: "",
         css: {
             width: "100%"
         },
@@ -20,7 +20,7 @@ $(function(){
           waitConnect: "Connecting...",
           waitUpload: "Uploading in progress...",
           noteURL: "Enter the image URL here:",
-          errContact: '<a href="http://devs.forumvi.com/t131-jq-plugin-jquery-plugin-zzimgur#831" rel="nofollow" target="_blank">Click here</a> to report an error.',
+          errContact: '<a href="https://www.mrlaboratory.info/2021/06/add-qr-scanner-code-script-to-your.html" rel="nofollow" target="_blank">Click here</a> to report an error.',
           errURL: "The URL is not accessible.",
           errSize: "Error URL or size is too small.",
           errRepeat: "The URL is invalid or already in use."
@@ -42,11 +42,16 @@ $(function(){
         }
     });
     });
-// $(".zzcopyLink").on("click",function(){
-    
-// }) 
+function copyimglink(num){
+    num--
+    var copyUrl = $(".imgur_Zzbv-input:eq("+num+")").val();
+     navigator.clipboard.writeText(copyUrl);
+     $(".zzcopyLink:eq("+num+")").text("Copied");
+     $(".imgur_Zzbv-input:eq("+num+")").css("color","#00a26d")
+}
+
 // function copyimglink(){  
-//     // var copyUrl = $(".imgur_Zzbv-input")[1].val();
+//     // var copyUrl = $(".imgur_Zzbv-input:eq("+num+")").val();
 //     // navigator.clipboard.writeText(copyUrl);
 //     // notify("link Copied")
 //     alert($(".imgur_Zzbv-input")[0].val());
