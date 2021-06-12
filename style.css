@@ -124,12 +124,17 @@
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 20px;
+        max-width: 800px;
+    margin: 0 auto;
     }
     
     .upload {
         padding: 10px;
         box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
         border-radius: 8px;
+        max-width: 800px;
+    margin: 0 auto;
+    margin-top: 15px;
         
     }
     .imgur_Zzbv-iconUpload,.imgur_Zzbv-iconImage,.imgur_Zzbv-iconSelect,.imgur_Zzbv-iconReset{
