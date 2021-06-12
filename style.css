@@ -32,8 +32,8 @@
         background: #e4ebf5;
         background-position: 131px 0;
     position: absolute;
-    right: 0px;
-    top: 9px;
+    right: 140px;
+    top: 57px;
     height: 18px;
     width: 43px;
     overflow: hidden;
@@ -112,8 +112,8 @@
         height: 38px;
         border: none;
         border-radius: 4px;
-        right: 2px;
-        bottom: 16px;
+        right: 218px;
+    bottom: 15px;
         cursor: pointer;
         background: #e4ebf5;
         box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
@@ -134,4 +134,10 @@
     }
     .imgur_Zzbv-iconUpload,.imgur_Zzbv-iconImage,.imgur_Zzbv-iconSelect,.imgur_Zzbv-iconReset{
         filter: brightness(0.5);
+    }
+    .mrocredt{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+       
     }
