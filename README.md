@@ -1,5 +1,4 @@
 # ImagesUploadGetLink
-
-    echo '<pre>'
+<pre>
     $cmd --color=always "$@" 2>&1 | aha --no-header
-    echo '</pre>'
+    </pre>
